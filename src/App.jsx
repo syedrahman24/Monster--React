@@ -1,14 +1,11 @@
+import { Paragraph } from "./Components/Paragraph";
 
-import './App.css'
-
-function App() {
-  
-
+const App = () =>{
   return (
-    <>
-      <h1>This is my first React Learning Full Fledged</h1>
-    </>
+    <div className="card-container">
+      <Paragraph fname="Syed" lname="Abdur"/>
+    </div>
   )
 }
 
-export default App
+export default App;
