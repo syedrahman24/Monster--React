@@ -1,4 +1,4 @@
-export const Paragraph = (props) =>{
+const Paragraph = (props) =>{
 
     console.log(props)
     return(
@@ -9,3 +9,5 @@ export const Paragraph = (props) =>{
         </>
     )
 }
+
+export default Paragraph;

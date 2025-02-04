@@ -12,6 +12,8 @@ h1{
     color: white;
 }
 
+
+
 .card-container{
     display: flex;
     flex-direction: column;
@@ -32,4 +34,31 @@ h1{
     margin: 5px;
     font-size: 1em;
     
+}
+
+.student-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 2px solid red;
+    margin: 10px;
+    background-color: rgb(0, 0, 0);
+    padding: 10PX;
+    width: 1440px;
+    max-width: fit-content;
+}
+
+.student-card{
+    background-color: rgb(65, 64, 64);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40vmin;
+    height: auto;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 10px;
+
 }
